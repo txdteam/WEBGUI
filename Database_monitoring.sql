@@ -55,3 +55,5 @@ CREATE TABLE "public"."Database_monitoring" (
 -- Primary Key structure for table Database_monitoring
 -- ----------------------------
 ALTER TABLE "public"."Database_monitoring" ADD CONSTRAINT "Database_monitoring_pkey" PRIMARY KEY ("id");
+
+# test code views
