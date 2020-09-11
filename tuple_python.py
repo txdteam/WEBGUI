@@ -14,3 +14,16 @@ print(x, y)
 
 _, s = os.path.split("/home")  # 这个函数会返回以路径和最后一个文件组成的元组
 print(s)  # s = home
+
+a, b, *rest = range(5)
+print(a)  # a = 0
+print(b)  # b = 1
+print(rest)  # rest = [2,3,4]
+a, b, *rest = range(3)
+print(a)  # a = 0
+print(b)  # b = 1
+print(rest)  # rest = [2]
+a, b, *rest = range(2)
+print(a)  # a = 0
+print(b)  # b = 1
+print(rest)  # rest = []
